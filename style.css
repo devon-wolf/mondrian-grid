@@ -27,7 +27,7 @@ body, html {
 }
 
 .inner {
-	border: solid 6px black;
+	border: solid 8px black;
 }
 
 .grid1 {
@@ -47,19 +47,20 @@ body, html {
 	grid-column: 1 / 3;
 	display: grid;
 	grid-template-rows: 85% 15%;
-	grid-template-columns: 66.75% 33.25%;
+	grid-template-columns: 66.7% 33.3%;
 }
 
 .grid4 {
 	display: grid;
 	grid-template-rows: 50% 50%;
-	grid-template-columns: 60% 13.25% 26.75%;
+	grid-template-columns: 60% 13.2% 26.8%;
 }
 
 .a {
 	grid-column: 1 / 3;
 	border-top: none;
 	border-left: none;
+	background-color: navy;
 }
 
 .b {
@@ -70,6 +71,7 @@ body, html {
 .d {
 	grid-column: 1 / 3;
 	border-top: none;
+	background-color: maroon;
 }
 
 .e {
@@ -80,19 +82,29 @@ body, html {
 	border-bottom: none;
 }
 
+.f {
+	background-color: gold;
+}
+
 .h {
 	border-top: none;
 	border-left: none;
+}
+
+.i {
+	background-color: navy;
 }
 
 .j {
 	grid-column: 1 / 3;
 	border-left: none;
 	border-bottom: none;
+	background-color: gold;
 }
 
 .k {
 	grid-column: 1 / 3;
+	background-color: maroon;
 }
 
 .l {
@@ -107,4 +119,5 @@ body, html {
 .n {
 	grid-column: 2 / 4;
 	border-bottom: none;
+	background-color: navy;
 }
